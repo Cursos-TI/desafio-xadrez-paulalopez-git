@@ -17,6 +17,15 @@ int main() {
         printf("Cima Direita\n");  // Bispo anda na diagonal superior direita
         j++;
     }
+    printf("\n");
 
+    // Movimento da Rainha usando 'do-while'
+    printf("Movimento da Rainha:\n");
+    int k = 1;
+    do {
+        printf("Esquerda\n");  // Rainha anda para a esquerda
+        k++;
+    } while (k <= 8);
+    
     return 0;
 }
